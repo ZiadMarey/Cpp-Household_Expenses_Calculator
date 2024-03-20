@@ -1,0 +1,709 @@
+CALCULATION OF AVERAGE POWER COSTS FOR A HOUSE - CLASS VERSION WITH INHERITANCE
+q quit
+d delete house
+h house initialisation
+i input immobile consumer
+m input mobile consumer
+s input solar producer
+u move up device
+p print household
+a print all households
+n new household
+c copy all devices (added to already existing ones)
+r read data from file
+w write data into file
+>> a
+house is a nullptr, please first choose h to initialise a new house or r to read from file
+q quit
+d delete house
+h house initialisation
+i input immobile consumer
+m input mobile consumer
+s input solar producer
+u move up device
+p print household
+a print all households
+n new household
+c copy all devices (added to already existing ones)
+r read data from file
+w write data into file
+>> r
+input file name: house3.csv
+input separator character: ;
+input file "house3.csv" opened...
+Address Lotharstrasse 65d, 47057 Duisburg Neudorf at address 0x62f6c0 deleted
+ is an unknown structure
+input file "house3.csv" closed
+q quit
+d delete house
+h house initialisation
+i input immobile consumer
+m input mobile consumer
+s input solar producer
+u move up device
+p print household
+a print all households
+n new household
+c copy all devices (added to already existing ones)
+r read data from file
+w write data into file
+>> a
+======================================================================
+                                H O U S E
+======================================================================
+                              (this: 0xf65ef0)
+                            address: Lotharstrasse 65d, 47057 Duisburg Neudorf
+               number of households: 6
+          total number of consumers: 7
+H O U S E H O L D   N O   1   P O W E R   C O N S U M P T I O N
+----------------------------------------------------------------------
+                              (this: 0xf65fd0)
+                  price for one kWh: 30.00 ct/kWh
+                     power supplier: ENBW
+                      square metres: 100.00 qm
+                            persons: 1
+     water heated using electricity: yes
+                    list of devices
+----------------------------------------------------------------------
+                                  1: E-Bike
+                              (this: 0xf66020)
+           power consumption 100 km: 0.50 kW
+                          km driven: 100.00 km daily
+                 annual consumption: 182.5 kWh
+                       annual costs: 54.75 EUR
+                                  2: balcony power plant
+                              (this: 0xf660d0)
+        solar cells installed power: 600.00 watt_peak
+                 age of solar cells: 1 years
+                  annual production: -597.0 kWh
+                     annual savings: -179.10 EUR
+----------------------------------------------------------------------
+    power consumption square meters: 900.0 kWh
+      power consumption all persons: 550.0 kWh
+     total annual power consumption: 1035.5 kWh
+           total annual power costs: 310.65 EUR
+H O U S E H O L D   N O   2   P O W E R   C O N S U M P T I O N
+----------------------------------------------------------------------
+                              (this: 0xf66120)
+                  price for one kWh: 30.00 ct/kWh
+                     power supplier: Yello Strom
+                      square metres: 200.00 qm
+                            persons: 5
+     water heated using electricity: yes
+                    list of devices
+----------------------------------------------------------------------
+                                  1: balcony power plant
+                              (this: 0xf66170)
+        solar cells installed power: 600.00 watt_peak
+                 age of solar cells: 1 years
+                  annual production: -597.0 kWh
+                     annual savings: -179.10 EUR
+                                  2: Router
+                              (this: 0xf661f0)
+                  power consumption: 10.00 W
+          power consumption standby: 0.00 W
+                annual hours of use: 8760.00 h
+            annual hours of standby: 0.00 h
+                 annual consumption: 87.6 kWh
+                       annual costs: 26.28 EUR
+                                  3: Office PC
+                              (this: 0xf66250)
+                  power consumption: 200.00 W
+          power consumption standby: 0.50 W
+                annual hours of use: 2210.00 h
+            annual hours of standby: 6550.00 h
+                 annual consumption: 445.3 kWh
+                       annual costs: 133.58 EUR
+                                  4: Washing Machine
+                              (this: 0xf662e0)
+                  power consumption: 2000.00 W
+          power consumption standby: 0.00 W
+                annual hours of use: 104.00 h
+            annual hours of standby: 8656.00 h
+                 annual consumption: 208.0 kWh
+                       annual costs: 62.40 EUR
+----------------------------------------------------------------------
+    power consumption square meters: 1800.0 kWh
+      power consumption all persons: 2750.0 kWh
+     total annual power consumption: 4693.9 kWh
+           total annual power costs: 1408.16 EUR
+H O U S E H O L D   N O   3   P O W E R   C O N S U M P T I O N
+----------------------------------------------------------------------
+                              (this: 0xf66340)
+                  price for one kWh: 40.00 ct/kWh
+                     power supplier: Stadtwerke
+                      square metres: 100.00 qm
+                            persons: 2
+     water heated using electricity: no
+                    list of devices
+----------------------------------------------------------------------
+                                  1: balcony power plant
+                              (this: 0xf66390)
+        solar cells installed power: 0.80 watt_peak
+                 age of solar cells: 2 years
+                  annual production: -0.8 kWh
+                     annual savings: -0.32 EUR
+                                  2: E-SUV
+                              (this: 0xf66410)
+           power consumption 100 km: 18.00 kW
+                          km driven: 100.00 km Monday to Friday
+                 annual consumption: 4680.0 kWh
+                       annual costs: 1872.00 EUR
+                                  3: Dish Washer
+                              (this: 0xf66490)
+                  power consumption: 250.00 W
+          power consumption standby: 0.00 W
+                annual hours of use: 1277.50 h
+            annual hours of standby: 7482.50 h
+                 annual consumption: 319.4 kWh
+                       annual costs: 127.75 EUR
+                                  4: LED TV
+                              (this: 0xf664f0)
+                  power consumption: 70.00 W
+          power consumption standby: 0.50 W
+                annual hours of use: 208.00 h
+            annual hours of standby: 8552.00 h
+                 annual consumption: 18.8 kWh
+                       annual costs: 7.53 EUR
+----------------------------------------------------------------------
+    power consumption square meters: 900.0 kWh
+      power consumption all persons: 400.0 kWh
+     total annual power consumption: 6317.4 kWh
+           total annual power costs: 2526.97 EUR
+======================================================================
+q quit
+d delete house
+h house initialisation
+i input immobile consumer
+m input mobile consumer
+s input solar producer
+u move up device
+p print household
+a print all households
+n new household
+c copy all devices (added to already existing ones)
+r read data from file
+w write data into file
+>> n
+number of household? 4
+how many square metres does the household have? 50
+how many persons live in this household? 2
+is hot water heated using electricity? (y(es) or n(o)) y
+what is the price for one kWh in EUR? 0.5
+who is the power supplier? RWE
+q quit
+d delete house
+h house initialisation
+i input immobile consumer
+m input mobile consumer
+s input solar producer
+u move up device
+p print household
+a print all households
+n new household
+c copy all devices (added to already existing ones)
+r read data from file
+w write data into file
+>> c
+number of household from which to copy devices? 2
+number of household to copy to? 4
+q quit
+d delete house
+h house initialisation
+i input immobile consumer
+m input mobile consumer
+s input solar producer
+u move up device
+p print household
+a print all households
+n new household
+c copy all devices (added to already existing ones)
+r read data from file
+w write data into file
+>> c
+number of household from which to copy devices? 3
+number of household to copy to? 4
+q quit
+d delete house
+h house initialisation
+i input immobile consumer
+m input mobile consumer
+s input solar producer
+u move up device
+p print household
+a print all households
+n new household
+c copy all devices (added to already existing ones)
+r read data from file
+w write data into file
+>> a
+======================================================================
+                                H O U S E
+======================================================================
+                              (this: 0xf65ef0)
+                            address: Lotharstrasse 65d, 47057 Duisburg Neudorf
+               number of households: 6
+          total number of consumers: 13
+H O U S E H O L D   N O   1   P O W E R   C O N S U M P T I O N
+----------------------------------------------------------------------
+                              (this: 0xf65fd0)
+                  price for one kWh: 30.00 ct/kWh
+                     power supplier: ENBW
+                      square metres: 100.00 qm
+                            persons: 1
+     water heated using electricity: yes
+                    list of devices
+----------------------------------------------------------------------
+                                  1: E-Bike
+                              (this: 0xf66020)
+           power consumption 100 km: 0.50 kW
+                          km driven: 100.00 km daily
+                 annual consumption: 182.5 kWh
+                       annual costs: 54.75 EUR
+                                  2: balcony power plant
+                              (this: 0xf660d0)
+        solar cells installed power: 600.00 watt_peak
+                 age of solar cells: 1 years
+                  annual production: -597.0 kWh
+                     annual savings: -179.10 EUR
+----------------------------------------------------------------------
+    power consumption square meters: 900.0 kWh
+      power consumption all persons: 550.0 kWh
+     total annual power consumption: 1035.5 kWh
+           total annual power costs: 310.65 EUR
+H O U S E H O L D   N O   2   P O W E R   C O N S U M P T I O N
+----------------------------------------------------------------------
+                              (this: 0xf66120)
+                  price for one kWh: 30.00 ct/kWh
+                     power supplier: Yello Strom
+                      square metres: 200.00 qm
+                            persons: 5
+     water heated using electricity: yes
+                    list of devices
+----------------------------------------------------------------------
+                                  1: balcony power plant
+                              (this: 0xf66170)
+        solar cells installed power: 600.00 watt_peak
+                 age of solar cells: 1 years
+                  annual production: -597.0 kWh
+                     annual savings: -179.10 EUR
+                                  2: Router
+                              (this: 0xf661f0)
+                  power consumption: 10.00 W
+          power consumption standby: 0.00 W
+                annual hours of use: 8760.00 h
+            annual hours of standby: 0.00 h
+                 annual consumption: 87.6 kWh
+                       annual costs: 26.28 EUR
+                                  3: Office PC
+                              (this: 0xf66250)
+                  power consumption: 200.00 W
+          power consumption standby: 0.50 W
+                annual hours of use: 2210.00 h
+            annual hours of standby: 6550.00 h
+                 annual consumption: 445.3 kWh
+                       annual costs: 133.58 EUR
+                                  4: Washing Machine
+                              (this: 0xf662e0)
+                  power consumption: 2000.00 W
+          power consumption standby: 0.00 W
+                annual hours of use: 104.00 h
+            annual hours of standby: 8656.00 h
+                 annual consumption: 208.0 kWh
+                       annual costs: 62.40 EUR
+----------------------------------------------------------------------
+    power consumption square meters: 1800.0 kWh
+      power consumption all persons: 2750.0 kWh
+     total annual power consumption: 4693.9 kWh
+           total annual power costs: 1408.16 EUR
+H O U S E H O L D   N O   3   P O W E R   C O N S U M P T I O N
+----------------------------------------------------------------------
+                              (this: 0xf66340)
+                  price for one kWh: 40.00 ct/kWh
+                     power supplier: Stadtwerke
+                      square metres: 100.00 qm
+                            persons: 2
+     water heated using electricity: no
+                    list of devices
+----------------------------------------------------------------------
+                                  1: balcony power plant
+                              (this: 0xf66390)
+        solar cells installed power: 0.80 watt_peak
+                 age of solar cells: 2 years
+                  annual production: -0.8 kWh
+                     annual savings: -0.32 EUR
+                                  2: E-SUV
+                              (this: 0xf66410)
+           power consumption 100 km: 18.00 kW
+                          km driven: 100.00 km Monday to Friday
+                 annual consumption: 4680.0 kWh
+                       annual costs: 1872.00 EUR
+                                  3: Dish Washer
+                              (this: 0xf66490)
+                  power consumption: 250.00 W
+          power consumption standby: 0.00 W
+                annual hours of use: 1277.50 h
+            annual hours of standby: 7482.50 h
+                 annual consumption: 319.4 kWh
+                       annual costs: 127.75 EUR
+                                  4: LED TV
+                              (this: 0xf664f0)
+                  power consumption: 70.00 W
+          power consumption standby: 0.50 W
+                annual hours of use: 208.00 h
+            annual hours of standby: 8552.00 h
+                 annual consumption: 18.8 kWh
+                       annual costs: 7.53 EUR
+----------------------------------------------------------------------
+    power consumption square meters: 900.0 kWh
+      power consumption all persons: 400.0 kWh
+     total annual power consumption: 6317.4 kWh
+           total annual power costs: 2526.97 EUR
+H O U S E H O L D   N O   4   P O W E R   C O N S U M P T I O N
+----------------------------------------------------------------------
+                              (this: 0xf61a30)
+                  price for one kWh: 50.00 ct/kWh
+                     power supplier: RWE
+                      square metres: 50.00 qm
+                            persons: 2
+     water heated using electricity: yes
+                    list of devices
+----------------------------------------------------------------------
+                                  1: balcony power plant
+                              (this: 0xf65ea0)
+        solar cells installed power: 0.80 watt_peak
+                 age of solar cells: 2 years
+                  annual production: -0.8 kWh
+                     annual savings: -0.40 EUR
+                                  2: E-SUV
+                              (this: 0xf66910)
+           power consumption 100 km: 18.00 kW
+                          km driven: 100.00 km Monday to Friday
+                 annual consumption: 4680.0 kWh
+                       annual costs: 2340.00 EUR
+                                  3: Dish Washer
+                              (this: 0xf66960)
+                  power consumption: 250.00 W
+          power consumption standby: 0.00 W
+                annual hours of use: 1277.50 h
+            annual hours of standby: 7482.50 h
+                 annual consumption: 319.4 kWh
+                       annual costs: 159.69 EUR
+                                  4: LED TV
+                              (this: 0xf669c0)
+                  power consumption: 70.00 W
+          power consumption standby: 0.50 W
+                annual hours of use: 208.00 h
+            annual hours of standby: 8552.00 h
+                 annual consumption: 18.8 kWh
+                       annual costs: 9.42 EUR
+                                  5: balcony power plant
+                              (this: 0xf65ce0)
+        solar cells installed power: 600.00 watt_peak
+                 age of solar cells: 1 years
+                  annual production: -597.0 kWh
+                     annual savings: -298.50 EUR
+                                  6: Router
+                              (this: 0xf667f0)
+                  power consumption: 10.00 W
+          power consumption standby: 0.00 W
+                annual hours of use: 8760.00 h
+            annual hours of standby: 0.00 h
+                 annual consumption: 87.6 kWh
+                       annual costs: 43.80 EUR
+                                  7: Office PC
+                              (this: 0xf66850)
+                  power consumption: 200.00 W
+          power consumption standby: 0.50 W
+                annual hours of use: 2210.00 h
+            annual hours of standby: 6550.00 h
+                 annual consumption: 445.3 kWh
+                       annual costs: 222.64 EUR
+                                  8: Washing Machine
+                              (this: 0xf668b0)
+                  power consumption: 2000.00 W
+          power consumption standby: 0.00 W
+                annual hours of use: 104.00 h
+            annual hours of standby: 8656.00 h
+                 annual consumption: 208.0 kWh
+                       annual costs: 104.00 EUR
+----------------------------------------------------------------------
+    power consumption square meters: 450.0 kWh
+      power consumption all persons: 1100.0 kWh
+     total annual power consumption: 6711.3 kWh
+           total annual power costs: 3355.65 EUR
+======================================================================
+q quit
+d delete house
+h house initialisation
+i input immobile consumer
+m input mobile consumer
+s input solar producer
+u move up device
+p print household
+a print all households
+n new household
+c copy all devices (added to already existing ones)
+r read data from file
+w write data into file
+>> u
+number of household? 4
+which one? 8
+q quit
+d delete house
+h house initialisation
+i input immobile consumer
+m input mobile consumer
+s input solar producer
+u move up device
+p print household
+a print all households
+n new household
+c copy all devices (added to already existing ones)
+r read data from file
+w write data into file
+>> u
+number of household? 4
+which one? 7
+q quit
+d delete house
+h house initialisation
+i input immobile consumer
+m input mobile consumer
+s input solar producer
+u move up device
+p print household
+a print all households
+n new household
+c copy all devices (added to already existing ones)
+r read data from file
+w write data into file
+>> a
+======================================================================
+                                H O U S E
+======================================================================
+                              (this: 0xf65ef0)
+                            address: Lotharstrasse 65d, 47057 Duisburg Neudorf
+               number of households: 6
+          total number of consumers: 13
+H O U S E H O L D   N O   1   P O W E R   C O N S U M P T I O N
+----------------------------------------------------------------------
+                              (this: 0xf65fd0)
+                  price for one kWh: 30.00 ct/kWh
+                     power supplier: ENBW
+                      square metres: 100.00 qm
+                            persons: 1
+     water heated using electricity: yes
+                    list of devices
+----------------------------------------------------------------------
+                                  1: E-Bike
+                              (this: 0xf66020)
+           power consumption 100 km: 0.50 kW
+                          km driven: 100.00 km daily
+                 annual consumption: 182.5 kWh
+                       annual costs: 54.75 EUR
+                                  2: balcony power plant
+                              (this: 0xf660d0)
+        solar cells installed power: 600.00 watt_peak
+                 age of solar cells: 1 years
+                  annual production: -597.0 kWh
+                     annual savings: -179.10 EUR
+----------------------------------------------------------------------
+    power consumption square meters: 900.0 kWh
+      power consumption all persons: 550.0 kWh
+     total annual power consumption: 1035.5 kWh
+           total annual power costs: 310.65 EUR
+H O U S E H O L D   N O   2   P O W E R   C O N S U M P T I O N
+----------------------------------------------------------------------
+                              (this: 0xf66120)
+                  price for one kWh: 30.00 ct/kWh
+                     power supplier: Yello Strom
+                      square metres: 200.00 qm
+                            persons: 5
+     water heated using electricity: yes
+                    list of devices
+----------------------------------------------------------------------
+                                  1: balcony power plant
+                              (this: 0xf66170)
+        solar cells installed power: 600.00 watt_peak
+                 age of solar cells: 1 years
+                  annual production: -597.0 kWh
+                     annual savings: -179.10 EUR
+                                  2: Router
+                              (this: 0xf661f0)
+                  power consumption: 10.00 W
+          power consumption standby: 0.00 W
+                annual hours of use: 8760.00 h
+            annual hours of standby: 0.00 h
+                 annual consumption: 87.6 kWh
+                       annual costs: 26.28 EUR
+                                  3: Office PC
+                              (this: 0xf66250)
+                  power consumption: 200.00 W
+          power consumption standby: 0.50 W
+                annual hours of use: 2210.00 h
+            annual hours of standby: 6550.00 h
+                 annual consumption: 445.3 kWh
+                       annual costs: 133.58 EUR
+                                  4: Washing Machine
+                              (this: 0xf662e0)
+                  power consumption: 2000.00 W
+          power consumption standby: 0.00 W
+                annual hours of use: 104.00 h
+            annual hours of standby: 8656.00 h
+                 annual consumption: 208.0 kWh
+                       annual costs: 62.40 EUR
+----------------------------------------------------------------------
+    power consumption square meters: 1800.0 kWh
+      power consumption all persons: 2750.0 kWh
+     total annual power consumption: 4693.9 kWh
+           total annual power costs: 1408.16 EUR
+H O U S E H O L D   N O   3   P O W E R   C O N S U M P T I O N
+----------------------------------------------------------------------
+                              (this: 0xf66340)
+                  price for one kWh: 40.00 ct/kWh
+                     power supplier: Stadtwerke
+                      square metres: 100.00 qm
+                            persons: 2
+     water heated using electricity: no
+                    list of devices
+----------------------------------------------------------------------
+                                  1: balcony power plant
+                              (this: 0xf66390)
+        solar cells installed power: 0.80 watt_peak
+                 age of solar cells: 2 years
+                  annual production: -0.8 kWh
+                     annual savings: -0.32 EUR
+                                  2: E-SUV
+                              (this: 0xf66410)
+           power consumption 100 km: 18.00 kW
+                          km driven: 100.00 km Monday to Friday
+                 annual consumption: 4680.0 kWh
+                       annual costs: 1872.00 EUR
+                                  3: Dish Washer
+                              (this: 0xf66490)
+                  power consumption: 250.00 W
+          power consumption standby: 0.00 W
+                annual hours of use: 1277.50 h
+            annual hours of standby: 7482.50 h
+                 annual consumption: 319.4 kWh
+                       annual costs: 127.75 EUR
+                                  4: LED TV
+                              (this: 0xf664f0)
+                  power consumption: 70.00 W
+          power consumption standby: 0.50 W
+                annual hours of use: 208.00 h
+            annual hours of standby: 8552.00 h
+                 annual consumption: 18.8 kWh
+                       annual costs: 7.53 EUR
+----------------------------------------------------------------------
+    power consumption square meters: 900.0 kWh
+      power consumption all persons: 400.0 kWh
+     total annual power consumption: 6317.4 kWh
+           total annual power costs: 2526.97 EUR
+H O U S E H O L D   N O   4   P O W E R   C O N S U M P T I O N
+----------------------------------------------------------------------
+                              (this: 0xf61a30)
+                  price for one kWh: 50.00 ct/kWh
+                     power supplier: RWE
+                      square metres: 50.00 qm
+                            persons: 2
+     water heated using electricity: yes
+                    list of devices
+----------------------------------------------------------------------
+                                  1: balcony power plant
+                              (this: 0xf65ea0)
+        solar cells installed power: 0.80 watt_peak
+                 age of solar cells: 2 years
+                  annual production: -0.8 kWh
+                     annual savings: -0.40 EUR
+                                  2: E-SUV
+                              (this: 0xf66910)
+           power consumption 100 km: 18.00 kW
+                          km driven: 100.00 km Monday to Friday
+                 annual consumption: 4680.0 kWh
+                       annual costs: 2340.00 EUR
+                                  3: Dish Washer
+                              (this: 0xf66960)
+                  power consumption: 250.00 W
+          power consumption standby: 0.00 W
+                annual hours of use: 1277.50 h
+            annual hours of standby: 7482.50 h
+                 annual consumption: 319.4 kWh
+                       annual costs: 159.69 EUR
+                                  4: LED TV
+                              (this: 0xf669c0)
+                  power consumption: 70.00 W
+          power consumption standby: 0.50 W
+                annual hours of use: 208.00 h
+            annual hours of standby: 8552.00 h
+                 annual consumption: 18.8 kWh
+                       annual costs: 9.42 EUR
+                                  5: balcony power plant
+                              (this: 0xf65ce0)
+        solar cells installed power: 600.00 watt_peak
+                 age of solar cells: 1 years
+                  annual production: -597.0 kWh
+                     annual savings: -298.50 EUR
+                                  6: Washing Machine
+                              (this: 0xf668b0)
+                  power consumption: 2000.00 W
+          power consumption standby: 0.00 W
+                annual hours of use: 104.00 h
+            annual hours of standby: 8656.00 h
+                 annual consumption: 208.0 kWh
+                       annual costs: 104.00 EUR
+                                  7: Router
+                              (this: 0xf667f0)
+                  power consumption: 10.00 W
+          power consumption standby: 0.00 W
+                annual hours of use: 8760.00 h
+            annual hours of standby: 0.00 h
+                 annual consumption: 87.6 kWh
+                       annual costs: 43.80 EUR
+                                  8: Office PC
+                              (this: 0xf66850)
+                  power consumption: 200.00 W
+          power consumption standby: 0.50 W
+                annual hours of use: 2210.00 h
+            annual hours of standby: 6550.00 h
+                 annual consumption: 445.3 kWh
+                       annual costs: 222.64 EUR
+----------------------------------------------------------------------
+    power consumption square meters: 450.0 kWh
+      power consumption all persons: 1100.0 kWh
+     total annual power consumption: 6711.3 kWh
+           total annual power costs: 3355.65 EUR
+======================================================================
+q quit
+d delete house
+h house initialisation
+i input immobile consumer
+m input mobile consumer
+s input solar producer
+u move up device
+p print household
+a print all households
+n new household
+c copy all devices (added to already existing ones)
+r read data from file
+w write data into file
+>> w
+input file name: house4.csv
+input separator character: |
+output file "house4.csv" opened...
+output file "house4.csv" closed
+q quit
+d delete house
+h house initialisation
+i input immobile consumer
+m input mobile consumer
+s input solar producer
+u move up device
+p print household
+a print all households
+n new household
+c copy all devices (added to already existing ones)
+r read data from file
+w write data into file
+>>
