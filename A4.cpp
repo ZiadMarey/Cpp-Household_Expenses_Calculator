@@ -1,8 +1,6 @@
 /***********************************************************************
-Matr.-Nr:                     3173482
 Nachname/Surname:             Marey
 Vorname/Given name:           Ziad
-Uni-Email:                    ziad.marey@stud.uni-due.de
 Studiengang/Course of studis: ISE Software Engineering
 ***********************************************************************/
 
